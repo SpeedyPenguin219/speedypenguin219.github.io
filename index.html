@@ -1,15 +1,18 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-<style>
-  h1{
-    font-size: 200px;
-    font: Arial;
-    text-align: center;
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
 </head>
-<h1 id="balright">There is <b>NOTHING</b> here</h1>
-<button id="coded">Inconspicuous button</button>
-<script>
-  document.getElementById("coded").onclick = function(){
-    document.getElementById("balright").textContent = `I told you not to click it!`;}
-</script>
+<body>
+  <h1 id="balright">There is <b>NOTHING</b> here</h1>
+  <button id="coded">Inconspicuous button</button>
+
+  <script>
+    document.getElementById("coded").onclick = function() {
+      document.getElementById("balright").textContent = "I told you not to click it!";
+    };
+  </script>
+</body>
+</html>
