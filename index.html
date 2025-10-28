@@ -7,4 +7,9 @@
     text-align: center;
 </style>
 </head>
-<h1>Nevermind. I'm Bored!</h1>
+<h1 id="balright">There is <b>NOTHING</b> here</h1>
+<button id="inconspicuous">Inconspicuous button</button>
+<script>
+  document.getElementById("inconspicuous").onclick = function(){
+    document.getElementById("balright").textContent = `I told you not to click it!`;
+</script>
